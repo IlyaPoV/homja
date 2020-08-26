@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    --main-bg-color: #74d1f6;
+
+    font-family: "Open Sans", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.main-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+}
+
+.comand {
+    padding-top: 50px;
+}
+
+.main-headline,
+.secont-headline {
+    font-family: "Neucha", Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: #444343 3px 3px;
+    font-size: 38px;
+}
+
+.secont-headline {
+    font-size: 28px;
+}
+.description {
+    padding: 10px;
+    width: 600px;
+    background-color: #fff;
+    box-shadow: #7f3f98 10px 10px;
+}
+.container {
+    display: flex; 
+}
+#house {
+    height: 220px;
+    width: 250px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 25px;
+    box-shadow: #ffde16 10px 10px;
+}
+#parent {
+    height: 220px;
+    width: 300px;
+    margin-left: 0;
+    box-shadow: #ec008c 10px 10px;
+}
+
+.text-hint{
+    padding-top: 60px;
+    opacity: .6;
+    text-align: center;
+}
+
+.checher {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(28, 171, 238);
+    margin: 5px;  
+    background-size: cover;
+    background-position: top;
+}
+.hint {
+    width: 270px;
+    background: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: #20409a 10px 10px;
+    font-size: 18px;   
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hint:hover{
+    background: rgb(102, 102, 102);
+}
+
+.hint__wide{
+    width: 500px;
+}
+.challenge-area {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin: 5px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+.lover-line {
+    display: flex;
+    align-items: center;
+}
+
+.next-ex {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: #fff;
+    color: #20409a;
+    border: 2px solid #20409a;
+    font-weight: bold;
+}
+
+
+.none {
+    display: none;
+}
+
+.false {
+    background-color: red;
+}
+.truth {
+    background-color: green;
+}
+
+canvas {
+    width: 400px;
+    height: 400px;
+}
+img {
+    background-image: url(../img/yes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 150px;
+    height: 106px;
+}
+
+#leaves {
+    height: 0;
+    width: 0;
+}
+
+#golang {
+    height: 0;
+    width: 0;
+}
+
+/* items list  descriotion*/
+
+.end {
+    background-image:url(../img/end.png);
+}
+.number {
+    background-image:url(../img/number.png);
+}
+.rep {
+    background-image:url(../img/rep.png);
+}
+.do {
+    background-image:url(../img/do.png);
+}
+.fwd {
+    background-image:url(../img/fwd.png);
+}
+.right {
+    background-image:url(../img/right.png);
+}
+.left {
+    background-image:url(../img/left.png);
+}
+.dwn {
+    background-image:url(../img/dwn.png);
+}
+.num1{
+    background-image:url(../img/1.png);
+}
+.num2{
+    background-image:url(../img/2.png);
+}
+.num3{
+    background-image:url(../img/3.png);
+}
+.num4{
+    background-image:url(../img/4.png);
+}
+.num5{
+    background-image:url(../img/5.png);
+}
